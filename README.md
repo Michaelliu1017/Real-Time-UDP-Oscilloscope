@@ -14,6 +14,24 @@ artifacts
 - Build tools: pyinstaller (we’ll install it in the virtual environment)
 - Network: UDP reachable port (default 8080). Allow the app through firewall if prompted.
 ## Running in Virtual Enviroment (For macOS / Linux)
+
+- go to your project folder<br/>
+cd /path/to/your/project<br/>
+
+- create and activate venv<br/>
+python3 -m venv venv<br/>
+source venv/bin/activate<br/>
+
+- upgrade pip and install deps<br/>
+python3 -m pip install --upgrade pip<br/>
+pip install PyQt5 pyqtgraph numpy<br/>
+
+- (optional) install for packaging<br/>
+pip install pyinstaller<br/>
+
+- run the app (replace with your main file name)<br/>
+python3 oscilloscope.py<br/>
+
 ## Running in Virtual Enviroment (For Windows)
 - go to your project folder<br/>
 cd "C:\path\to\your\project"<br/>

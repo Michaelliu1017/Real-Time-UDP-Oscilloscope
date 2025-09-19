@@ -1,6 +1,6 @@
 # Project Info
 ## Project Overview
-- A host-side application to start/stop device acquisition via UDPcontrol frames and designed to visualize streaming MMW
+- A host-side application to start/stop device acquisition via UDPcontrol frames and designed for visualizing streaming MMW
 radar sensor data in real time.
 - Utilizing responsive PyQt UI (Start/Stop colocated with device IP/Port, dynamic sample size, Pause/Continue,
 Y-axis zoom, non-negative view, hot-path updates via QTimer) to provid better interactive experience.

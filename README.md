@@ -15,15 +15,15 @@ artifacts
 - Network: UDP reachable port (default 8080). Allow the app through firewall if prompted.
 ## Running in Virtual Enviroment (For macOS / Linux)
 ## Running in Virtual Enviroment (For Windows)
-- go to your project folder (replace path!)
-cd "C:\path\to\your\project"
-- create and activate venv
-py -3.11 -m venv venv
-.\venv\Scripts\activate
+- go to your project folder<br/>
+cd "C:\path\to\your\project"<br/>
+- create and activate venv<br/>
+py -3.11 -m venv venv<br/>
+.\venv\Scripts\activate<br/>
 
-- upgrade pip and install deps
-python -m pip install --upgrade pip
-pip install PyQt5 pyqtgraph numpy
+- upgrade pip and install deps<br/>
+python -m pip install --upgrade pip<br/>
+pip install PyQt5 pyqtgraph numpy<br/>
 
 - (optional) install for packaging
 pip install pyinstaller

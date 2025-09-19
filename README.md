@@ -15,21 +15,19 @@ artifacts
 - Network: UDP reachable port (default 8080). Allow the app through firewall if prompted.
 ## Running in Virtual Enviroment (For macOS / Linux)
 ## Running in Virtual Enviroment (For Windows)
-**go to your project folder (replace path!)**
-- cd "C:\path\to\your\project"
-
-# create and activate venv
+- go to your project folder (replace path!)
+cd "C:\path\to\your\project"
+- create and activate venv
 py -3.11 -m venv venv
 .\venv\Scripts\activate
 
-# upgrade pip and install deps
+- upgrade pip and install deps
 python -m pip install --upgrade pip
 pip install PyQt5 pyqtgraph numpy
 
-# (optional) install for packaging
+- (optional) install for packaging
 pip install pyinstaller
-
-# run the app (replace with your main file name)
+- run the app (replace with your main file name)
 python oscilloscope.py
 
 ## Deployement

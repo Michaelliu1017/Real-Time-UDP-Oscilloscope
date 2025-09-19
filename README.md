@@ -15,7 +15,7 @@ artifacts
 - Network: UDP reachable port (default 8080). Allow the app through firewall if prompted.
 ## Running in Virtual Enviroment (For macOS / Linux)
 ## Running in Virtual Enviroment (For Windows)
-** go to your project folder (replace path!) **
+**go to your project folder (replace path!)**
 - cd "C:\path\to\your\project"
 
 # create and activate venv

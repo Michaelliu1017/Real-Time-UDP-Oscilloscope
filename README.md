@@ -25,10 +25,10 @@ py -3.11 -m venv venv<br/>
 python -m pip install --upgrade pip<br/>
 pip install PyQt5 pyqtgraph numpy<br/>
 
-- (optional) install for packaging
-pip install pyinstaller
-- run the app (replace with your main file name)
-python oscilloscope.py
+- (optional) install for packaging<br/>
+pip install pyinstaller<br/>
+- run the app (replace with your main file name)<br/>
+python oscilloscope.py<br/>
 
 ## Deployement
 **XXXX:**

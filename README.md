@@ -6,9 +6,7 @@
 - Build tools: pyinstaller (we’ll install it in the virtual environment)
 - Network: UDP reachable port (default 8080). Allow the app through firewall if prompted.
 ## Run in Virtual Enviroment
-## Deploy on 
-**Activate a virtual environment:**
-- python -m venv venv
-##
-##
-# Technique Stack
+## Deployement
+**XXXX:**
+- XXXX
+## Other

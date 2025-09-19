@@ -1,7 +1,6 @@
-# Project Info
-Work in Progress...
-- Environment Setup
-## Activate a virtual environment
+# Project Overview
+## Environment Setup
+- Activate a virtual environment
 python -m venv venv
 ##
 ##
